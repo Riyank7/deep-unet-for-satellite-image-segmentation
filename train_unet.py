@@ -24,8 +24,8 @@ N_EPOCHS = 100
 UPCONV = True
 PATCH_SZ = 160   # should divide by 16
 BATCH_SIZE = 50
-TRAIN_SZ = 800  # train size
-VAL_SZ = 600   # validation size
+TRAIN_SZ = 500 # train size
+VAL_SZ = 300   # validation size
 
 
 def get_model():
